@@ -1,20 +1,9 @@
 <h1> About This Site</h1>
 
 
-<h1>Your Text:</h1>
+<h2>This is a demo site:</h2>
 {{ fulltext }}
 
-<h1>Word breakdown</h1>
-{{sortedwords}}
-
-<h1>Better word breakdown</h1>
-
-{% for word, counttotal in sortedwords %}
-
-{{ word}} - {{ counttotal }}
-<br />
-
-{% endfor %}
-
+<p>Words cannot describe this site.</p>
 
 <a href="{% url 'home' %}">Start Again</a> 
